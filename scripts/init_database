@@ -1,0 +1,12 @@
+/*create database called DataWarehouse and this script bulid the schemas bronze, silver, gold */ 
+
+use master
+Create DATABASE DataWarehouse;
+
+use DataWarehouse;
+go
+Create SCHEMA bronze;
+go
+Create SCHEMA silver;
+go
+Create SCHEMA gold;
